@@ -1,0 +1,77 @@
+.twikoo .tk-submit .el-textarea__inner {
+  min-height: 120px !important;
+  transition: all 0.5s ease-in-out 0s;
+}
+
+.twikoo .tk-submit .el-textarea__inner:focus {
+  background-position-x: -200%;
+}
+
+.tk-extras {
+  opacity: 0;
+  -webkit-filter: alpha(opacity=0);
+  filter: alpha(opacity=0);
+}
+
+.tk-content:hover+.tk-extras {
+  -webkit-animation: tk-extras-fadeIn 0.5s linear;
+  animation: tk-extras-fadeIn 0.5s linear;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes tk-extras-fadeIn {
+  from {
+    opacity: 0;
+    -webkit-filter: alpha(opacity=0);
+    filter: alpha(opacity=0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-filter: none;
+    filter: none;
+  }
+}
+
+@-moz-keyframes tk-extras-fadeIn {
+  from {
+    opacity: 0;
+    -webkit-filter: alpha(opacity=0);
+    filter: alpha(opacity=0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-filter: none;
+    filter: none;
+  }
+}
+
+@-o-keyframes tk-extras-fadeIn {
+  from {
+    opacity: 0;
+    -webkit-filter: alpha(opacity=0);
+    filter: alpha(opacity=0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-filter: none;
+    filter: none;
+  }
+}
+
+@keyframes tk-extras-fadeIn {
+  from {
+    opacity: 0;
+    -webkit-filter: alpha(opacity=0);
+    filter: alpha(opacity=0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-filter: none;
+    filter: none;
+  }
+}
