@@ -1,4 +1,3 @@
-// 星空背景
 function dark() {
   window.requestAnimationFrame =
     window.requestAnimationFrame ||

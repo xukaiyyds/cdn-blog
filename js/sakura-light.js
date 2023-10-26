@@ -1,4 +1,3 @@
-// 飘落动画
 var stop, staticx;
 var img = new Image();
 img.src = "https://pic1.imgdb.cn/item/63e8fdda4757feff33a9125b.png";

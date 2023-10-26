@@ -1,4 +1,3 @@
-/* 订阅按钮 */
 function RewardButton(config) {
     this.btnIcon = config.btnIcon;
     this.btnText = config.btnText;

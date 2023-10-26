@@ -1,0 +1,13 @@
+[data-user-color-scheme="dark"] .wechat-qrcode {
+    border: none !important;
+    box-shadow: none !important;
+    background-color: #353941 !important;
+}
+
+[data-user-color-scheme="dark"] .social-share .icon-wechat .wechat-qrcode:after {
+    border-top-color: #353941 !important;
+}
+
+[data-user-color-scheme="dark"] .wechat-qrcode h4 {
+    background-color: #6d747f !important;
+}
