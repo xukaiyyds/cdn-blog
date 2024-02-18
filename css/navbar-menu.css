@@ -4,9 +4,10 @@
 }
 
 .navbar .dropdown-menu {
-  min-width: inherit;
+  left: -2rem;
+  text-align: center;
   background-color: var(--navbar-bg-color);
-  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, .5);
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.5);
   -webkit-animation: sub_menus 0.3s 0.1s ease both;
   animation: sub_menus 0.3s 0.1s ease both;
 }
