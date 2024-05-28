@@ -153,6 +153,7 @@ details[open] > div.content {
   border: 1px solid lightgray;
   border-top-color: transparent;
   border-radius: 0 0 2px 2px;
+  cursor: auto;
 }
 
 details[open] > div.content p > a:hover {
